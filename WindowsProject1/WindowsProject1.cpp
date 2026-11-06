@@ -1,6 +1,6 @@
 ﻿// WindowsProject1.cpp : Определяет точку входа для приложения.
 //
-
+#include <iostream>
 #include "framework.h"
 #include "WindowsProject1.h"
 
@@ -176,5 +176,6 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
         }
         break;
     }
+    std::cout << "Hello world";
     return (INT_PTR)FALSE;
 }
